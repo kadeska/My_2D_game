@@ -1,4 +1,4 @@
-#Welcome!
+## Welcome!
 
 This is my 2D openGL game that I am solo developing for entertainment and educational purposes. I used a premade starting template called "Glitter" to help get things up and running faster. If you would like to know more about Glitter then please read along as I include some information about it as well as links to their website. 
 
