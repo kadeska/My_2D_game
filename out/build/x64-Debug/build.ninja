@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_Glitter: phony || cmake_object_order_dep
 
 build CMakeFiles\Glitter.dir\Glitter\Sources\helper.cpp.obj: CXX_COMPILER__Glitter_unscanned_Debug F$:\cpp_projects\games\Glitter\Glitter\Sources\helper.cpp || cmake_object_order_depends_target_Glitter
   DEFINES = -DGLFW_INCLUDE_NONE -DPROJECT_SOURCE_DIR=\"F:/cpp_projects/games/Glitter\"
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /W3 -std=c++20 -pthread /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /W4 /std:c++20 /pthread /MDd /Zi /Ob0 /Od /RTC1
   INCLUDES = -IF:\cpp_projects\games\Glitter\Glitter\Headers -IF:\cpp_projects\games\Glitter\Glitter\Vendor\assimp\include -IF:\cpp_projects\games\Glitter\Glitter\Vendor\bullet\src -IF:\cpp_projects\games\Glitter\Glitter\Vendor\glad\include -IF:\cpp_projects\games\Glitter\Glitter\Vendor\glfw\include -IF:\cpp_projects\games\Glitter\Glitter\Vendor\glm -IF:\cpp_projects\games\Glitter\Glitter\Vendor\stb -IF:\cpp_projects\games\Glitter\Glitter\Vendor\assimp\code\..\include -IF:\cpp_projects\games\Glitter\out\build\x64-Debug\Glitter\Vendor\assimp\code\..\include
   OBJECT_DIR = CMakeFiles\Glitter.dir
   OBJECT_FILE_DIR = CMakeFiles\Glitter.dir\Glitter\Sources
@@ -60,7 +60,7 @@ build CMakeFiles\Glitter.dir\Glitter\Sources\helper.cpp.obj: CXX_COMPILER__Glitt
 
 build CMakeFiles\Glitter.dir\Glitter\Sources\main.cpp.obj: CXX_COMPILER__Glitter_unscanned_Debug F$:\cpp_projects\games\Glitter\Glitter\Sources\main.cpp || cmake_object_order_depends_target_Glitter
   DEFINES = -DGLFW_INCLUDE_NONE -DPROJECT_SOURCE_DIR=\"F:/cpp_projects/games/Glitter\"
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /W3 -std=c++20 -pthread /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /W4 /std:c++20 /pthread /MDd /Zi /Ob0 /Od /RTC1
   INCLUDES = -IF:\cpp_projects\games\Glitter\Glitter\Headers -IF:\cpp_projects\games\Glitter\Glitter\Vendor\assimp\include -IF:\cpp_projects\games\Glitter\Glitter\Vendor\bullet\src -IF:\cpp_projects\games\Glitter\Glitter\Vendor\glad\include -IF:\cpp_projects\games\Glitter\Glitter\Vendor\glfw\include -IF:\cpp_projects\games\Glitter\Glitter\Vendor\glm -IF:\cpp_projects\games\Glitter\Glitter\Vendor\stb -IF:\cpp_projects\games\Glitter\Glitter\Vendor\assimp\code\..\include -IF:\cpp_projects\games\Glitter\out\build\x64-Debug\Glitter\Vendor\assimp\code\..\include
   OBJECT_DIR = CMakeFiles\Glitter.dir
   OBJECT_FILE_DIR = CMakeFiles\Glitter.dir\Glitter\Sources
@@ -69,7 +69,7 @@ build CMakeFiles\Glitter.dir\Glitter\Sources\main.cpp.obj: CXX_COMPILER__Glitter
 
 build CMakeFiles\Glitter.dir\Glitter\Sources\worker.cpp.obj: CXX_COMPILER__Glitter_unscanned_Debug F$:\cpp_projects\games\Glitter\Glitter\Sources\worker.cpp || cmake_object_order_depends_target_Glitter
   DEFINES = -DGLFW_INCLUDE_NONE -DPROJECT_SOURCE_DIR=\"F:/cpp_projects/games/Glitter\"
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /W3 -std=c++20 -pthread /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /W4 /std:c++20 /pthread /MDd /Zi /Ob0 /Od /RTC1
   INCLUDES = -IF:\cpp_projects\games\Glitter\Glitter\Headers -IF:\cpp_projects\games\Glitter\Glitter\Vendor\assimp\include -IF:\cpp_projects\games\Glitter\Glitter\Vendor\bullet\src -IF:\cpp_projects\games\Glitter\Glitter\Vendor\glad\include -IF:\cpp_projects\games\Glitter\Glitter\Vendor\glfw\include -IF:\cpp_projects\games\Glitter\Glitter\Vendor\glm -IF:\cpp_projects\games\Glitter\Glitter\Vendor\stb -IF:\cpp_projects\games\Glitter\Glitter\Vendor\assimp\code\..\include -IF:\cpp_projects\games\Glitter\out\build\x64-Debug\Glitter\Vendor\assimp\code\..\include
   OBJECT_DIR = CMakeFiles\Glitter.dir
   OBJECT_FILE_DIR = CMakeFiles\Glitter.dir\Glitter\Sources
@@ -94,7 +94,7 @@ build CMakeFiles\Glitter.dir\Glitter\Vendor\glad\src\glad.c.obj: C_COMPILER__Gli
 # Link the executable Glitter\Glitter.exe
 
 build Glitter\Glitter.exe: CXX_EXECUTABLE_LINKER__Glitter_Debug CMakeFiles\Glitter.dir\Glitter\Sources\helper.cpp.obj CMakeFiles\Glitter.dir\Glitter\Sources\main.cpp.obj CMakeFiles\Glitter.dir\Glitter\Sources\worker.cpp.obj CMakeFiles\Glitter.dir\Glitter\Vendor\glad\src\glad.c.obj | Glitter\Vendor\assimp\lib\assimp-vc143-mtd.lib lib\glfw3d.lib lib\BulletDynamicsd.lib lib\BulletCollisiond.lib lib\LinearMathd.lib lib\zlibstaticd.lib || Glitter\Vendor\assimp\lib\assimp-vc143-mtd.lib lib\BulletCollisiond.lib lib\BulletDynamicsd.lib lib\LinearMathd.lib lib\glfw3d.lib lib\zlibstaticd.lib
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /W3 -std=c++20 -pthread /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /W4 /std:c++20 /pthread /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = Glitter\Vendor\assimp\lib\assimp-vc143-mtd.lib  lib\glfw3d.lib  lib\BulletDynamicsd.lib  lib\BulletCollisiond.lib  lib\LinearMathd.lib  lib\zlibstaticd.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\Glitter.dir
