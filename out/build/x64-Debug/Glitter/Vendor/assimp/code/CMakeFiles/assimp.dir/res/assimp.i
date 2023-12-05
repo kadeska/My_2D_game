@@ -17,7 +17,7 @@
 
 
 
-#line 19 "F:\\cpp_projects\\games\\Glitter\\out\\build\\x64-Debug\\Glitter\\Vendor\\assimp\\revision.h"
+
 
 #line 21 "F:\\cpp_projects\\games\\Glitter\\out\\build\\x64-Debug\\Glitter\\Vendor\\assimp\\revision.h"
 
@@ -8874,12 +8874,12 @@ BEGIN
             VALUE "Comments", "Licensed under a 3-clause BSD license"
             VALUE "CompanyName", "ASSIMP Team"
             VALUE "FileDescription", "Open Asset Import Library"
-            VALUE "FileVersion", "5" "." "2" "." "5" "." "0" " (Commit feb0303f)"
+            VALUE "FileVersion", "5" "." "2" "." "5" "." "0"
             VALUE "InternalName", "assimp"
             VALUE "LegalCopyright", "\xA9 2006-2022"
             VALUE "OriginalFilename", "assimp-vc143-mtd.dll"
             VALUE "ProductName", "Open Asset Import Library"
-            VALUE "ProductVersion", "5" "." "2" "." "5" "." "0" " (Commit feb0303f)"
+            VALUE "ProductVersion", "5" "." "2" "." "5" "." "0"
         END
     END
     BLOCK "VarFileInfo"

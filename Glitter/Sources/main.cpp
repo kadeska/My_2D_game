@@ -15,7 +15,7 @@ void initShaders();
 void initVertexData();
 void cleanup();
 
-bool wireframe = true;
+bool wireframe = false;
 bool debug = true;
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
@@ -145,7 +145,7 @@ void initVertexData() {
  //       1, 2, 3   // second Triangle
  //   };
 
-    unsigned int VBO, VAO;
+    //unsigned int VBO, VAO;
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
     // bind the Vertex Array Object first, then bind and set vertex buffer(s), and then configure vertex attributes(s).

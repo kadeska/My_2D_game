@@ -4,10 +4,10 @@
 77	912	7234186808788506	Glitter/Vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj	af0f33ac6c506523
 24376	26246	7234187062272987	Glitter/Vendor/assimp/code/CMakeFiles/assimp.dir/AssetLib/3DS/3DSExporter.cpp.obj	b6c70005415146f3
 71	901	7234186808768526	Glitter/Vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj	192d7e5c9e0cb4cd
-8554	10136	7234186900751131	Glitter/Vendor/assimp/code/CMakeFiles/assimp.dir/AssetLib/BVH/BVHLoader.cpp.obj	47d4586950eb4489
-13113	15566	7234186955399126	Glitter/Vendor/assimp/code/CMakeFiles/assimp.dir/AssetLib/Ogre/OgreBinarySerializer.cpp.obj	6c79138353295fec
 19051	20968	7234187009487938	Glitter/Vendor/assimp/code/CMakeFiles/assimp.dir/AssetLib/FBX/FBXModel.cpp.obj	e6c8f144587214f
 64	918	7234186808798531	Glitter/Vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	798ef94e0789f59f
+8554	10136	7234186900751131	Glitter/Vendor/assimp/code/CMakeFiles/assimp.dir/AssetLib/BVH/BVHLoader.cpp.obj	47d4586950eb4489
+13113	15566	7234186955399126	Glitter/Vendor/assimp/code/CMakeFiles/assimp.dir/AssetLib/Ogre/OgreBinarySerializer.cpp.obj	6c79138353295fec
 57	933	7234186808908538	Glitter/Vendor/glfw/src/CMakeFiles/glfw.dir/init.c.obj	d928cfbbbdf8d832
 54	925	7234186808758535	Glitter/Vendor/glfw/src/CMakeFiles/glfw.dir/context.c.obj	324f5263947edbdd
 28902	29474	7234187094405059	Glitter/Vendor/bullet/src/Bullet3OpenCL/CMakeFiles/Bullet3OpenCL_clew.dir/BroadphaseCollision/b3GpuSapBroadphase.obj	f96bd09bc97fd4f3
@@ -518,3 +518,12 @@
 644	1870	7234191590875130	Glitter/Glitter.exe	2fff22fa1d72cc46
 113	1519	0	CMakeFiles/install.util	219a0080dcca4b85
 19	131	0	clean	299f67556133fa6e
+31	182	7234368529153538	Glitter/Vendor/assimp/code/CMakeFiles/assimp.dir/res/assimp.rc.res	8b283714e445db95
+34	823	7234368535558562	Glitter/Vendor/assimp/code/CMakeFiles/assimp.dir/Common/Version.cpp.obj	70a9b5f2d330e01f
+27	999	7234368537298931	CMakeFiles/Glitter.dir/Glitter/Sources/main.cpp.obj	8ad24a7e92b12290
+823	3061	7234368557103975	Glitter/Vendor/assimp/lib/assimp-vc143-mtd.lib	6f259f3c6e3e06c1
+3061	4682	7234368560215180	Glitter/Glitter.exe	2fff22fa1d72cc46
+37	946	7234386110824065	CMakeFiles/Glitter.dir/Glitter/Sources/main.cpp.obj	8ad24a7e92b12290
+946	2227	7234386112103168	Glitter/Glitter.exe	2fff22fa1d72cc46
+35	679	7234386712186604	CMakeFiles/Glitter.dir/Glitter/Sources/main.cpp.obj	8ad24a7e92b12290
+680	1880	7234386713415725	Glitter/Glitter.exe	2fff22fa1d72cc46
