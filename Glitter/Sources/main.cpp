@@ -259,8 +259,8 @@ void render_Loop(GLFWwindow *w) {
         // draw our first triangle
         shader.use();
         glBindVertexArray(VAO);
-        //glDrawArrays(GL_TRIANGLES, 0, 3);
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+        glDrawArrays(GL_TRIANGLES, 0, 8);                       // Why does this make only the bottom right triangle render? 
+        //glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);  // why does this not do anything? 
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         glfwSwapBuffers(w);
